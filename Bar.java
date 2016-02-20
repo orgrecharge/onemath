@@ -1,11 +1,13 @@
+import org.apache.commons.math3.util.FastMath;
+
 public class Bar {
 	public static void main(String[] arg) {
 		Bar f = new Bar();
-		int length = f.getPositive();
-		System.out.println("Bar: length="+length);	
+		double tan = f.getTan();
+		System.out.println("Foo: tan="+tan);
 	}
-	
-	public int getPositive() {
-		return 10;
+
+	public double getTan() {
+		return FastMath.tan(10);
 	}
 }
