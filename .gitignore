@@ -1,2 +1,5 @@
 *.class
-*.jar
+measure.jar
+*.log
+.idea/
+target/
